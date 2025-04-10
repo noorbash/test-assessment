@@ -1,0 +1,6 @@
+<div *ngIf="profile">
+  <h2>Profile</h2>
+  <p>Full Name: {{ profile.fullName }}</p>
+  <p>Bio: {{ profile.bio }}</p>
+  <button (click)="updateProfile()">Update Profile</button>
+</div>
